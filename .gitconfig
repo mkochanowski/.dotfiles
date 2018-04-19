@@ -1,0 +1,5 @@
+[user]
+	name = Marek Kochanowski
+	email = marek@kochanow.ski
+[core]
+	autocrlf = true
