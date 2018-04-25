@@ -14,7 +14,14 @@ set ignorecase
 set smartcase
 set clipboard=unnamedplus
 
-"execute pathogen#infect()
+execute pathogen#infect()
+
+let g:rainbow#pairs = [['(', ')'], ['[', ']']]
+
+augroup rainbow_lisp
+	autocmd!
+	autocmd FileType lisp,clojure,scheme,racket RainbowParentheses
+augroup END
 
 filetype indent plugin on
 syntax on
