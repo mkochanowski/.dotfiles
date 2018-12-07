@@ -13,9 +13,16 @@ set mouse=a
 set ignorecase
 set smartcase
 set clipboard=unnamedplus
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
+
+if !has("gui_running")
+    set term=xterm
+    set mouse=a
+    " perhaps `nocompatible` is not required
+    set nocompatible
+endif
 
 execute pathogen#infect()
 

@@ -3,3 +3,4 @@
 	email = marek@kochanow.ski
 [core]
 	autocrlf = true
+	excludesfile = ~/.gitignore
