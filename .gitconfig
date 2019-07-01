@@ -1,6 +1,10 @@
 [user]
 	name = Marek Kochanowski
 	email = marek@kochanow.ski
+	signingkey = 2A74D9D5D1FB7FCF
 [core]
 	autocrlf = true
 	excludesfile = ~/.gitignore
+	editor = vim
+[commit]
+	gpgsign = true
